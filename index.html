@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<form enctype="multipart/form-data" action="../../../cgi-bin/xgboost/xgboost.py" method="POST">
+			<p>Load testing gene expression file: <input type="file" name="file1" id="file1" required=''></p>
+			<p>Load testing tumor purity (ground truth): <input type="file" name="file2" id="file2" required=''></p>
+			<p>Email: <input type="email" name="email" id="email" required=''></p>
+			<input type="submit" value="Submit">
+		</form>
+		<br>
+		Authors: Ethan Xu, Yuanyuan Li
+	</body>
+</html>
